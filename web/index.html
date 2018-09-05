@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div>
+            <h1>Calculadora</h1>
+            <form action="LoginServlet" method="post">
+                <ul>
+                    <li>
+                        <h3>X</h3>
+                        <input type="text" name="x" />
+                    </li>
+                    <li>
+                        <h3>Y </h3>
+                        <input type="text" name="y" />
+                    </li>
+                </ul>
+                
+                <div class="operacao">
+                    <h3>Operação </h3>
+                    <select name="sinal">
+                        <option value="1">Somar</option>
+                        <option value="2">Subtrair</option>
+                        <option value="3">Multiplicar</option>
+                        <option value="4">Dividir</option>
+                    </select>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Calcular" />
+                </div>
+            </form>
+        </div>
+        
+    </body>
+</html>

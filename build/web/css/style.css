@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/09/2018, 09:07:17
+    Author     : moesio.meneses
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+html{
+    width: 500px;
+    margin: 0 auto;
+    font-family: Roboto;
+        
+}
+h1, ul, p, .operacao, .submit, input{
+   text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+}
+
+li p{
+    text-align: center;
+}
+
+.submit input{
+    color: #ffffff;
+    background-color: #2F46A8;
+    width: 300px;
+    margin-top: 30px;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
